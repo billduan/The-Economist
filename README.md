@@ -1,5 +1,5 @@
 # The-Economist
-The Economist magazine weekly pdf download.
+The Economist magazine weekly pdf [download](https://github.com/lry127/The-Economist/archive/refs/heads/main.zip).
 
 # Why this repository?
 I'm looking for The Economist magazine weekly pdf over the Internet, but I only found very few sites that provide a free download of the original weekly edition. Worse, the download sites have annoying ads and download limits. So I create this repository and upload downloaded pdf for ones need it, while hoping there're more helpers to download these pdf from the Internet and share with others.
