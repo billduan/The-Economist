@@ -2,7 +2,6 @@ import streamlit as st
 import os
 
 import pdf2image
-import base64
 
 st.set_page_config(
     # layout="wide",    
