@@ -5,9 +5,9 @@ import pdf2image
 import base64
 
 st.set_page_config(
-    layout="wide",    
-    page_title="Chat with GPT4",
-    page_icon="🤖",
+    # layout="wide",    
+    page_title="Read the Economist",
+    page_icon="📰",
     initial_sidebar_state="expanded",
 )    
 
@@ -15,15 +15,17 @@ st.title('Read the Economist')
 
 
 folders = [i for i in os.listdir() if '.' not in i and 'utils' not in i]
-left, mid, right, rightx2 = st.columns([1,4,1,1])
+left, right,= st.columns([1,4])
 with left:
     edition = st.selectbox(label = 'Choose Edition', options = sorted(folders, reverse=True) )
-with mid:
-    file = st.selectbox(label="Select file", options = sorted(os.listdir(edition), reverse=True))
 with right:
-    method = st.selectbox(label="Options", options = ['Read Online','Download'])
-with rightx2:
-    dpi = st.selectbox(label="Options", options = [50,100,200,300])
+    file = st.selectbox(label="Select file", options = sorted(os.listdir(edition), reverse=True))
+
+left_, right_,= st.columns(2)
+with left_:
+    method = st.selectbox(label="Read or Download", options = ['Read Online','Download'])
+with right_:
+    dpi = st.selectbox(label="DPI", options = [100,150,200,300])
 
 submitted = st.button('Submit')
 
@@ -48,20 +50,5 @@ if submitted:
         with st.container():
             images = yield_images(filepath,dpi)
             st.image(images.__next__(), use_column_width=True)
-            # for page in images:
-            #     st.image(page, use_column_width=True)
-    # else:
-    #     with open(filepath,'rb') as f:
-    #         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    #     pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" type="application/pdf">' 
-    #     st.markdown(pdf_display, unsafe_allow_html=True)
-
-
-
-# for edition in folders:
-#     with st.expander(edition):
-#         st.write(
-#             os.listdir(edition)
-#         )
 
 
