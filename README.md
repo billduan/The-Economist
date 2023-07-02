@@ -21,3 +21,4 @@ Thank goes to
 - [magazinelib](https://magazinelib.com/?s=the+economist) for providing free pdf files
 - [ilovepdf](https://www.ilovepdf.com/) for providing amazingly powerful tools for processing pdf files
 - [@tranhoangnguyen03](https://github.com/tranhoangnguyen03) for great contributions to this project
+- [@achilleas-k](https://github.com/achilleas-k) for kind advice
