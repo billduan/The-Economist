@@ -6,6 +6,7 @@ I'm looking for the pdf version of *The Economist* magazine over the Internet, b
 
 # Where do I get these files?
 From:
+- [vk.com](https://vk.com/theeconomist_news)
 - [magazinelib](https://magazinelib.com/?s=the+economist)
 - [magazinebis](https://magazinebis.com/?s=The+Economist)
 
