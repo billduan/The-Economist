@@ -1,5 +1,7 @@
-# The-Economist
-The Economist magazine weekly pdf [download](https://github.com/lry127/The-Economist/archive/refs/heads/main.zip).
+# ~~The-Economist~~ **DISCONTINUED | DEPRECATED**
+*Please refer to [vk.com](https://vk.com/theeconomist_news). Sorry for the inconvenience, I might restart this project later*
+~~The Economist magazine weekly pdf [download](https://github.com/lry127/The-Economist/archive/refs/heads/main.zip).~~
+
 
 # Why this repository?
 I'm looking for the pdf version of *The Economist* magazine over the Internet, but found very only few sites providing a free download. Worse, these sites have annoying ads and download limits. So I created this repository in hopes of helping those who need it.
