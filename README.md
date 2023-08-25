@@ -1,5 +1,5 @@
-# ~~The-Economist~~ **DISCONTINUED | DEPRECATED**
-*Please refer to [vk.com](https://vk.com/theeconomist_news). Sorry for the inconvenience, I might restart this project later*
+# ~~The-Economist~~ **[DISCONTINUED]**
+*Please refer to [vk.com](https://vk.com/theeconomist_news). Sorry for the inconvenience, I might restart this project later.*
 
 ~~The Economist magazine weekly pdf [download](https://github.com/lry127/The-Economist/archive/refs/heads/main.zip).~~
 
