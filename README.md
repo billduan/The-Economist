@@ -3,6 +3,8 @@
 
 [freemagazines.top](https://freemagazines.top/?s=economist) is a better pdf source. demo deployment: https://read-economist.streamlit.app/
 
+Lack of July 2023 and some in Aug. 2023, for now.
+
 ~~The Economist magazine weekly pdf [download](https://github.com/lry127/The-Economist/archive/refs/heads/main.zip).~~
 
 
